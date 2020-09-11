@@ -111,5 +111,7 @@ function restartGame() {
 
     result.textContent = "";
 
-    result.style.display = "none"
+    result.style.display = "none";
+
+    randomGuess = Math.floor(Math.random() * 101);
 }
